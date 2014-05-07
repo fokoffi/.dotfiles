@@ -39,3 +39,7 @@ alias grep='grep --color'
 # git logs with colors
 alias gitlog="git log --graph --pretty=format:'%C(red)%h%C(reset) -%C(yellow)%d%C(reset) %s %C(green)(%cr) %C(blue)<%an>%C(reset)' --abbrev-commit"
 
+# To access to zshrc online help:
+unalias run-help
+autoload run-help
+HELPDIR=/usr/local/share/zsh/helpfiles
