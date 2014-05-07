@@ -26,9 +26,21 @@ export CLICOLOR=true
 #fpath=($ZSH/zsh/functions $fpath)
 #autoload -U $ZSH/zsh/functions/*(:t)
 
-HISTFILE=~/.zsh_history
-HISTSIZE=1000
-SAVEHIST=1000
+#Set the auto completion on
+autoload -U compinit
+compinit
+
+#Lets set some options
+setopt correctall
+setopt autocd
+setopt auto_resume
+
+## Enables the extgended globbing features
+setopt extendedglob
+
+HISTFILE=~/.zsh-histfile
+HISTSIZE=5000
+SAVEHIST=5000
 
 setopt NO_BG_NICE # don't nice background tasks
 setopt NO_HUP
