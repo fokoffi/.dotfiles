@@ -15,6 +15,8 @@
 export PATH=$PATH:/sw/bin
 export PATH=$PATH:/sw/sbin
 
-export PATH=/usr/local/Cellar/rsync:$PATH # Make sure the new rsync is used first
+export PATH=/usr/local/Cellar:$PATH # Make sure the new rsync is used first
 export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+export PATH=/usr/local/bin:$PATH # For homebrew
 

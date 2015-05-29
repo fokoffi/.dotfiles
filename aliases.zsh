@@ -16,6 +16,10 @@ alias dotmate='mate $ZSH'
 alias dotcd='cd $ZSH'
 alias dotsource='source ~/.zshrc'
 
+# history
+alias history='history -i'
+alias h='history'
+
 ##ls, the common ones I use a lot shortened for rapid fire usage
 alias ls='ls -G' 	#I like color
 alias l='ls -lFh'	#size,show type,human readable
@@ -31,7 +35,7 @@ alias ...='cd ../../../'
 alias ....='cd ../../../../'
 
 # realod .zshrc file 
-alias reload!='. ~/.zshrc'
+alias reload!='~/.zshrc'
 
 # use grep with colors
 alias grep='grep --color'
