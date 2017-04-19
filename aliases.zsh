@@ -28,12 +28,6 @@ alias lr='ls -tRFh'	#sorted by date,recursive,show type,human readable
 alias lt='ls -ltFh'	#long list,sorted by date,show type,human readable
 alias ll='ls -l'
  
-##cd, because typing the backslash is ALOT of work!!
-alias .='cd ../'
-alias ..='cd ../../'
-alias ...='cd ../../../'
-alias ....='cd ../../../../'
-
 # realod .zshrc file 
 alias reload!='~/.zshrc'
 
